@@ -1,0 +1,8 @@
+const ul = document.querySelector(".todo-list");
+const listItems = ul.getElementsByTagName("li");// append liye gye elments ko conasole py html collection mn show krwany k liye
+
+const sixthLi = document.createElement("li");
+sixthLi.textContent = "item 6";
+
+ul.append(sixthLi);
+console.log(listItems);
